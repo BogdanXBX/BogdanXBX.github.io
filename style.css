@@ -1,0 +1,32 @@
+body{
+  color: red;
+}
+
+.side{
+  float: left;
+  border: 1px solid blue;
+  width: 30%;
+}
+
+.centerSide{
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+}
+
+
+.rightSide{
+  float: left;
+  width: 30%;
+  border: 1px solid green;
+}
+
+footer {
+  /* clear: both; */
+}
+
+.mainContainer::after{
+  content: "zzzz";
+  display: block;
+  clear: both;
+}
